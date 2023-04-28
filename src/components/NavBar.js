@@ -25,7 +25,7 @@ function NavBar() {
         Home
       </NavLink>
       <NavLink
-        to="/about"
+        to="/actors"
         exact
         style={linkStyles}
         activeStyle={{
@@ -35,7 +35,7 @@ function NavBar() {
         Actors
       </NavLink>
       <NavLink
-        to="/login"
+        to="/directors"
         exact
         style={linkStyles}
         activeStyle={{
